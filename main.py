@@ -8,7 +8,7 @@ from pynput import keyboard
 import time
 import threading
 
-client = Groq(api_key='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')
+client = Groq(api_key='API KEY DE GROQ')
 
 def grabar_audio(frecuencia_muestreo=16000, canales=1, fragmento=1024):
     p = pyaudio.PyAudio()
